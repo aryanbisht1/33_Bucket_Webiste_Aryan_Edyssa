@@ -1,6 +1,28 @@
+.bg-img {
+  /* The image used */
+  background-image: url("images/water-glass.jpg");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  /* background-color: #333; */
   overflow: hidden;
 }
 
@@ -22,6 +44,6 @@
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #17a1b9;
-  color: white;
+  background-color: #707374;
+  color: rgb(255, 255, 255);
 }
